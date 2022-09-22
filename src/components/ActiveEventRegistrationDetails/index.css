@@ -1,0 +1,161 @@
+.registration-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 40%;
+  background-color: #ffffff;
+}
+
+.no-active-event-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heading {
+  color: #3a4b63;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+
+.yet-to-register-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yet-to-register-image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .yet-to-register-image {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+.description {
+  color: #3a4b63;
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 25px;
+  }
+}
+
+.register-btn {
+  color: #ffffff;
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 11px;
+  width: 90%;
+  align-self: center;
+  padding: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .register-btn {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+
+.registered-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registered-image {
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .registered-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.registered-heading {
+  color: hsl(215, 26%, 31%);
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .registered-heading {
+    font-size: 28px;
+  }
+}
+
+.closed-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closed-view-image {
+  height: 180px;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .closed-view-image {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+.registration-closed-heading {
+  color: #3a4b63;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-closed-heading {
+    font-size: 28px;
+  }
+}
+
+.registration-closed-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-closed-description {
+    font-size: 20px;
+  }
+}
